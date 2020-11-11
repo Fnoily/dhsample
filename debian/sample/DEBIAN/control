@@ -1,0 +1,10 @@
+Package: sample
+Version: 4.0.6
+Architecture: all
+Maintainer: liuyang <liuyang@kylinos.cn>
+Installed-Size: 25
+Depends: debhelper, dh-systemd
+Section: x11
+Priority: optional
+Homepage: http://www.kylinos.cn
+Description: sample for launch app by current user role

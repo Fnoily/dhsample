@@ -1,0 +1,14 @@
+Source: sample
+Section: x11
+Priority: optional
+Maintainer: liuyang <liuyang@kylinos.cn>
+Build-Depends: debhelper (>=9),dh-systemd
+Standards-Version: 3.9.6
+Homepage: http://www.kylinos.cn
+#Vcs-Git: git://anonscm.debian.org/collab-maint/mdmserver.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/mdmserver.git
+
+Package: sample
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, debhelper, dh-systemd
+Description: sample for launch app by current user role
