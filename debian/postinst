@@ -1,6 +1,6 @@
 #!/bin/sh
 
-USER=`ps -aux | grep firefox |  awk 'NR==1{print $1}'`
-echo ${USER}
-su ${USER}
-systemctl --user start sample.service
+USER=`env | grep SUDO_USER`
+echo ${USER##*=}
+su ${USER##*=}
+systemctl --user start sample.service]
