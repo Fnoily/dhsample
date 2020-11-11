@@ -1,8 +1,6 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with systemd
-override_dh_installsystemduser:
-	dh_installsystemduser
+	dh  $@ --parallel
 
 override_dh_strip:

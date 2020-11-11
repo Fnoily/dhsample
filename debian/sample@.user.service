@@ -1,9 +1,0 @@
-[Unit]
-Description=sample
-
-[Service]
-ExecStart=/usr/bin/demo
-Restart=always
-
-[Install]
-WantedBy= default.target
